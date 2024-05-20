@@ -1,5 +1,7 @@
 # streaming-03-rabbitmq
 
+Harinya Potluri 05/20/24
+
 > Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary.
 
 This project requires some free code - beyond that available in the Python Standard Library. To avoid messing up our local default Python installation, and any other Python projects we may have, we  create a local virtual environment to install and use these libraries.
@@ -78,8 +80,6 @@ python util_aboutenv.py
 python util_aboutrabbit.py
 pip list
 ```
-
-![verifying setup](./images/verifying.png)
 
 
 ## Task 5. Read
@@ -169,3 +169,8 @@ Each of the version 2 programs include an error as well.
 - [What is RabbitMQ? IBM Intro Video 10 min](https://www.youtube.com/watch?v=7rkeORD4jSw)
 
 ![Exploring the local virtual environment folder](./images/exploring_dot_venv.PNG)
+
+
+![ScreenShot](Module3HWScreenshot.png "Title")
+
+I worked on this project on windows. I struggled with installing RabbitMQ. The easiest way was to install with the direct installer. After I did that everthing worked well. 

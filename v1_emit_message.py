@@ -1,4 +1,6 @@
 """
+Harinya Potluri 05/20/2024    
+
     This program sends a message to a queue on the RabbitMQ server.
 
 """
@@ -15,11 +17,12 @@ ch = conn.channel()
 # use the channel to declare a queue
 ch.queue_declare(queue="hello")
 
+message = "Hello World!!!"
 # use the channel to publish a message to the queue
-ch.basic_publish(exchange="", routing_key="hello", body="Hello World!")
+ch.basic_publish(exchange="", routing_key="hello", body=message)
 
 # print a message to the console for the user
-print(" [x] Sent 'Hello World!'")
+print(" [x] Sent '",message,"'")
 
 # close the connection to the server
 conn.close()
